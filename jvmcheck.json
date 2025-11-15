@@ -1,0 +1,20 @@
+{
+  "weixin" : {
+    "url" : "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=填写自己的",
+    "title": "java虚拟机内存监控",
+    "url2": "http://90apt.com/",
+    "picurl": "自定义图片连接"
+
+  },
+  "path" : "./",
+  "redis" : {
+    "host": "IP地址",
+    "port": "端口",
+    "password": "密码",
+    "decode": "True"
+  },
+  "data" : [
+    { "ip" : "IP地址" , "username" : "用户名" , "password" : "base64转换后的密码" , "port" : "端口","hostname" :  "主机名"},
+    { "ip" : "IP地址" , "username" : "用户名" , "password" : "base64转换后的密码" , "port" : "端口","hostname" :  "主机名"}
+  ]
+}
